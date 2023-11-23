@@ -4,7 +4,7 @@
 (function chai(){ //named iife
     // named IIFE
     console.log(`DB CONNECTED`);
-})();
+})(); //semicolon is required because it does not know when to end when there are two iife functions 
 
 ( (name) => { //unmade iife
     console.log(`DB CONNECTED TWO ${name}`);
